@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Resources</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 40px;
+            text-align: center;
+        }
+        h1 {
+            color: #222;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            max-width: 600px;
+            margin: auto;
+        }
+        li {
+            background: #ffffff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        p {
+            margin: 5px 0 0;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Research Resources</h1>
+    <ul>
+        <li>
+            <a href="https://cran.r-project.org/web/packages/vcd2df/index.html" target="_blank">VCD2DF R Package (CRAN)</a>
+            <p>An R package for data transformation and visualization.</p>
+        </li>
+        <li>
+            <a href="https://arxiv.org/abs/2505.06470v2" target="_blank">Related Publication (arXiv)</a>
+            <p>Research paper discussing methods and applications relevant to VCD2DF.</p>
+        </li>
+        <li>
+            <a href="https://github.com/vcd2df/r" target="_blank">Source Code (GitHub)</a>
+            <p>Repository containing the source code and documentation for VCD2DF.</p>
+        </li>
+        <li>
+            <a href="https://style.tidyverse.org/" target="_blank">Tidyverse Style Guide</a>
+            <p>Guidelines for writing clean, consistent, and readable R code.</p>
+        </li>
+    </ul>
+</body>
+</html>
